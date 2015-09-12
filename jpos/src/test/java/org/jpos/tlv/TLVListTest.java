@@ -149,7 +149,7 @@ public class TLVListTest {
 
     @Test
     public void testElements() throws Throwable {
-        Enumeration result = tLVList.elements();
+        Enumeration<TLVMsg> result = tLVList.elements();
         assertFalse("result.hasMoreElements()", result.hasMoreElements());
     }
 
